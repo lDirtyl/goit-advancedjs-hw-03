@@ -19,7 +19,6 @@ a {
   font-family: var(--font-family);
 }
 
-/* #region Form */
 .form-wrapper {
   margin-bottom: 32px;
 }
@@ -81,9 +80,7 @@ a {
 .form-btn:hover {
   background: #6c8cff;
 }
-/* #endregion Form */
 
-/* #region Gallery */
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -139,9 +136,7 @@ a {
   height: 152px;
   object-fit: cover;
 }
-/* #endregion Gallery */
 
-/* #region Loader */
 .loader-wrapper {
   display: flex;
   justify-content: center;
@@ -234,4 +229,3 @@ a {
 .loader.is-hidden {
   display: none;
 }
-/* #endregion Loader */
